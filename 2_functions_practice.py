@@ -2,12 +2,12 @@
 
 
 def greet():
-  #print('Hello, welcome to programing.')
+  print('Hello, welcome to programing.')
 greet()
 
 
 def greet(name):
-    #print(f'Hello {name}')
+    print(f'Hello {name}')
 
 greet('Mpho')
 
