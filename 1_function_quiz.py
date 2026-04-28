@@ -3,7 +3,7 @@
 # ---------------------------------------------------------
 
 # 1. Write a function named 'add' that takes two numbers and returns their sum.
-def add(a, b):              # or can be done this way, but I think the 1st method looks cleaner    # def add(a, b): 
+def add(a, b):              # or it can be done this way, but I think the 1st method looks cleaner    # def add(a, b): 
     results_1 = a + b                                                                                  #    return a + b
     return print(f'QUESTION 1: {results_1}')                                                           # results_1 = add(1, 2)
 add(1, 3)        # e.g                                                                                 # print(f'QUESTION 1: {results_1}')
