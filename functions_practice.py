@@ -13,7 +13,7 @@ greet('Mpho')
 """
 """
 def add(a, b):
-    return a - b
+    return a + b
 results = add(2, 9)
 print(results)
 """
