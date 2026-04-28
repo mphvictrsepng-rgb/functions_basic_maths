@@ -1,1 +1,1 @@
-Practicing how to define fucntions and calling them
+Practicing how to define functions and how to call them
