@@ -39,6 +39,7 @@ def square(number):
 square(2)
 
 
+
 # 7. Create a class named 'MathStudent' that can store a 'name' attribute.
 
 # 8. Inside the 'MathStudent' class, create a method named 'get_area' for a rectangle.
