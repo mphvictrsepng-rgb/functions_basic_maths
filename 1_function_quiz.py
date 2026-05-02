@@ -41,9 +41,20 @@ square(2)
 
 
 # 7. Create a class named 'MathStudent' that can store a 'name' attribute.
-
 # 8. Inside the 'MathStudent' class, create a method named 'get_area' for a rectangle.
+class MathStudent():
+    def __init__(self, name):                      # Kept getting an error whenever I'd try running code, only to realise that it has to be double underscore not single underscore.
+        self.name = name
+
+    def get_area(self, width, length):             # length and width needed to calculate the area od rectangle
+        return width * length
+
 
 # 9. Create a class named 'Calculator' with a starting attribute 'total' set to 0.
+# 10. Inside the 'Calculator' class, create a method named 'add_to_total' to update the total. 
+class Calculator():
+    def __init__(self):
+        self.total = 0
+    def add_to_total(self, value):
+        self.total += value                       #I could be wrong here, corrections will be highly appreciated.
 
-# 10. Inside the 'Calculator' class, create a method named 'add_to_total' to update the total.
